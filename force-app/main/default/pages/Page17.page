@@ -1,0 +1,10 @@
+<apex:page standardController="Case" recordSetVar="Cases" >
+    <apex:pageBlock title="Case list">
+        <apex:pageBlockTable value="{!Cases}" var="Case" cellpadding="4" border="1">
+            <apex:column value="{!case.CaseNumber}"/>
+             <apex:column value="{!case.priority}"/>
+            <apex:column value="{!case.status}"/>
+            <apex:column value="{!case.type}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

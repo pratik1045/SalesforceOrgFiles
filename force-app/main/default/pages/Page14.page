@@ -1,0 +1,9 @@
+<apex:page standardController="Opportunity" >
+    <h1>
+        Congratulations.
+    </h1>
+    <p>
+        
+        You have aced your first {!opportunity.Name} opportunity
+    </p>
+</apex:page>

@@ -1,0 +1,11 @@
+<apex:page standardController="Battle_station4__c" recordSetVar="Battle_station4__cs" >
+    <apex:pageBlock title="Battlestation list">
+        <apex:pageBlockTable value="{!Battle_station4__cs}" var="Battle" cellpadding="4" border="1">
+            <apex:column value="{!Battle.name}"/>
+            <apex:column value="{!Battle.Supply_total_cost__c}"/>
+            <apex:column value="{!Battle.Weapon_status4__c}"/>
+            <apex:column value="{!Battle.Project_status4__c}"/>
+            <apex:column value="{!Battle.Resource_count__c}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

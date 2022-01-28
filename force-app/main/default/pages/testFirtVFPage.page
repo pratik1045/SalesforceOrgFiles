@@ -1,0 +1,9 @@
+<apex:page standardController="account" >
+   <h1>
+       Hello World {!account.phone}
+    </h1>
+    <h1>
+        
+       Hello El {!$User.Email}
+    </h1>
+</apex:page>

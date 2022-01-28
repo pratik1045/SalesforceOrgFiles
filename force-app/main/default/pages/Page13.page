@@ -1,0 +1,9 @@
+<apex:page >
+    
+    <h1>
+        Hey, this is my first page.
+    </h1>
+    <p>
+        My full name is {!$User.FirstName}
+    </p>
+</apex:page>

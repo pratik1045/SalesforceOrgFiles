@@ -1,0 +1,8 @@
+<apex:page standardController="Opportunity" >
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Opportunity list">
+            <apex:outputField title="name" value="{!opportunity.name}"/>
+            <apex:outputField value="{!opportunity.LeadSource}"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
